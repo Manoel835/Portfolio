@@ -12,9 +12,15 @@ export function NavBar() {
   const ClickSobre = () => {
     return navigate("/About");
   }
+  const ClickPortfólio = () => {
+    return navigate("/");
+  }
   return (
-    <Header>
-    <Logo>Portfólio</Logo>
+    <Header
+    initial={{opacity: 0}}
+    animate={{opacity: 3}}
+    exit={{opacity: 0}} >
+    <Logo onClick={ClickPortfólio}>Portfólio</Logo>
     <Bar>
       <AA onClick={ClickProjetos}>Projetos</AA>
       <AA onClick={ClickExperiencia}>Experiência</AA>

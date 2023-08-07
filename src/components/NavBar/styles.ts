@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Bar = styled.div`
@@ -12,9 +13,9 @@ cursor: pointer;
 export const Logo = styled.a`
 font-size: 3rem;
 font-weight: 600;
-cursor: default;
+cursor: pointer;
 `
-export const Header = styled.div`
+export const Header = styled(motion.div)`
 position: fixed;
 top: 0;
 left: 0;

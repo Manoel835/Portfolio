@@ -1,5 +1,7 @@
+import { NavBar } from "../../../components/NavBar";
+
 export default function Project (){
   return(
-    <h1>Project</h1>
+    <NavBar></NavBar>
   )
 }

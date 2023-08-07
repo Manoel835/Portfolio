@@ -4,7 +4,7 @@ import { BoxMain } from '../../components/Container'
 
 export default function Main() {
   return (
-    <Page>
+    <Page exit={{x: -window.innerWidth}}>
       <NavBar></NavBar>
       <BoxMain></BoxMain>
     </Page>
