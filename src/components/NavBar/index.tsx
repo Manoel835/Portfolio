@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Bar, AA, Logo, Header } from "./styles";
+import { Bar, Header } from "./styles";
 
 export function NavBar() {
   const navigate = useNavigate();
@@ -20,11 +20,11 @@ export function NavBar() {
     initial={{opacity: 0}}
     animate={{opacity: 3}}
     exit={{opacity: 0}} >
-    <Logo onClick={ClickPortfólio}>Portfólio</Logo>
+    <h1 onClick={ClickPortfólio}>Portfólio</h1>
     <Bar>
-      <AA onClick={ClickProjetos}>Projetos</AA>
-      <AA onClick={ClickExperiencia}>Experiência</AA>
-      <AA onClick={ClickSobre}>Sobre</AA>
+      <a onClick={ClickProjetos}>Projetos</a>
+      <a onClick={ClickExperiencia}>Experiência</a>
+      <a onClick={ClickSobre}>Sobre</a>
     </Bar>
     </Header>
   )
