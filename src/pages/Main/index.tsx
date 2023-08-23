@@ -1,10 +1,10 @@
 import { Page } from './styles'
 import { NavBar } from '../../components/NavBar'
-import { BoxMain } from '../../components/Container'
+import { BoxMain } from './Container'
 
 export default function Main() {
   return (
-    <Page exit={{x: -1500}}>
+    <Page>
       <NavBar></NavBar>
       <BoxMain></BoxMain>
     </Page>
