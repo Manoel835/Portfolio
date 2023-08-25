@@ -1,12 +1,12 @@
 import { Page } from "../styles"
 import { Container } from "../Container/styles"
-import { Info, Caixa, Icones, IconesS } from "./styles"
-import  Type  from '../../../assets/typescript.svg'
-import React from '../../../assets/react.svg'
-import javascript from '../../../assets/javascript.svg'
-import Node from '../../../assets/node.svg'
-import Frame from '../../../assets/Framer.svg'
-import styled from '../../../assets/styled.svg'
+import {Caixa, Icones, IconesS } from "./styles"
+import  Typetypescript  from '../../../assets/svg/typescript.svg'
+import React from '../../../assets/svg/react.svg'
+import javascript from '../../../assets/svg/javascript.svg'
+import Node from '../../../assets/svg/node.svg'
+import Frame from '../../../assets/svg/Framer.svg'
+import styled from '../../../assets/svg/styled.svg'
 import { NavBar } from "../../../components/NavBar"
 import { Box } from "../../../components/Box/styled"
 
@@ -22,7 +22,7 @@ export default function AboutPage(){
           <p>Meu foco é desenvolvedor de aplicações web e mobile</p>
           <p>Principais tecnologias que utilizo:</p>
           <Icones>
-            <Caixa><a><img src={Type} alt="typescript" />TypeScript</a></Caixa>
+            <Caixa><a><img src={Typetypescript} alt="typescript" />TypeScript</a></Caixa>
             <Caixa><a><img src={javascript} alt="typescript"/>JavaScript</a></Caixa>
             <Caixa><a><img src={React} alt="React"/>React.js</a></Caixa>
             <Caixa><a><img src={Node} alt="typescript"/>Node.js</a></Caixa>

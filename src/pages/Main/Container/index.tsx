@@ -1,8 +1,8 @@
 import {Box,Foto, Container } from './styles';
-import  Git  from '../../../assets/Git.svg'
-import Linkedin from '../../../assets/Linkedin.svg'
-import Instagram from '../../../assets/Instagram.svg'
-import Perfil from "./../../../assets/Manoel.jpg"
+import  Git  from '../../../assets/svg/Git.svg'
+import Linkedin from '../../../assets/svg/Linkedin.svg'
+import Instagram from '../../../assets/svg/Instagram.svg'
+import Perfil from "./../../../assets/images/Manoel.jpg"
 import { Page } from '../styles';
 
 export function BoxMain (){

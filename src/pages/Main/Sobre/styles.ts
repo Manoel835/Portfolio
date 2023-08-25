@@ -1,22 +1,7 @@
 import styled from "styled-components";
-import { motion } from 'framer-motion';
 
-
-export const Info = styled(motion.div)`
-width: 50vw;
-height: 70vh;
-background-color: #1C1C1C;
-border-radius: 30px;
-box-shadow: 1px 1px 50px #424449;
-padding: 2rem;
-h1,
-p{
-  text-align:center;
-}
-`
 export const Caixa = styled.div`
-width: 10rem;
-height: 10rem;
+width: 8vw;
 border-radius: 30px;
 background-color: ${(props) => props.theme.colors.gray800};
 
