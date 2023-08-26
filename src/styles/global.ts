@@ -7,4 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.theme.colors.white};
     font-family: ${(props) => props.theme.fontFamily.sans};
   }
+  a{
+    color: transparent;
+  }
 `

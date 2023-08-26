@@ -1,17 +1,19 @@
 import { Page } from "../styles"
-import { Container } from "../Container/styles"
-import {Caixa, Icones, IconesS } from "./styles"
+import {Caixa, Icones, IconesS, Container, Box, Button, DivButton} from "./styles"
+import { useNavigate } from "react-router-dom"
 import  Typetypescript  from '../../../assets/svg/typescript.svg'
 import React from '../../../assets/svg/react.svg'
 import javascript from '../../../assets/svg/javascript.svg'
 import Node from '../../../assets/svg/node.svg'
 import Frame from '../../../assets/svg/Framer.svg'
 import styled from '../../../assets/svg/styled.svg'
-import { Box } from "../../../components/Box/styled"
 
 
 export default function AboutPage(){
-
+  const navigate = useNavigate();
+  const ClickPortfólio = () => {
+    return navigate("/");
+  }
   return(
     <Page>
       <Container>
@@ -33,6 +35,11 @@ export default function AboutPage(){
             <Caixa><a><img src={styled} alt="styled-components" />Styled-components</a></Caixa>
             </IconesS>
           </IconesS>
+          <DivButton>
+          <Button onClick={ClickPortfólio}>
+            <h1>Voltar</h1>
+          </Button>
+          </DivButton>
         </Box>
       </Container>
     </Page>

@@ -1,7 +1,8 @@
-import {Box,Foto, Container,Card, MainCard} from './styles';
+import {Box,Foto, Container} from './styles';
 import Icones from "../../../components/Icones/index"
 import Perfil from "./../../../assets/images/Manoel.jpg"
 import { Page } from '../styles';
+import Card from '../../../components/Card';
 
 export function BoxMain (){
   return (
@@ -14,10 +15,7 @@ export function BoxMain (){
         </Box>
         <Icones/>
       </Container>
-      <MainCard>
         <Card/>
-        <Card/>
-      </MainCard>
     </Page>
   )
 }
