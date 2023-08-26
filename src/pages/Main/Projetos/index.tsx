@@ -1,4 +1,3 @@
-import { NavBar } from '../../../components/NavBar'
 import { Card, Container, Icones, ImgProject, Info, ImgDiv, Page } from './styles'
 import icheckbox from '../../../assets/images/icheckbox.png'
 import Exemplo from '../../../assets/images/Exemplo.png'
@@ -7,7 +6,6 @@ export default function Project() {
   return (
     <Page>
       <Container>
-        <NavBar></NavBar>
         <Card>
           <h1>Api-GitHub</h1>
           <ImgDiv>

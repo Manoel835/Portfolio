@@ -2,21 +2,48 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Container = styled(motion.div)`
-height: 100vh;
+width: 90vw;
+height: 75vh;
 display: flex;
 justify-content: center;
 align-items: center;
 h1{
-  font-size: 45px;}
-p{
-  font-size: 20px;
-}
+  color: #FFF;
+  font-family: Inter;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;}
+  p{
+    color: #FFF;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
 `
 export const Box = styled.div`
-width: 30vw;`
+width: 30vw;
+padding: 2rem;
+`
 
 export const Foto = styled.img`
-width: 15vw;
-border-radius: 100px;
-padding: 40px;
+width: 19vw;
+border-radius: 1.25rem;
+border: 1px solid #000;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+`
+export const MainCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+export const Card = styled.div`
+  width: 19.5rem;
+  height: 13.3rem;
+  border-radius: 1.25rem 0rem 0rem 1.25rem;
+  background: #294D61;
 `

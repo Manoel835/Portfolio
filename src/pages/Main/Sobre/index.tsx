@@ -7,15 +7,14 @@ import javascript from '../../../assets/svg/javascript.svg'
 import Node from '../../../assets/svg/node.svg'
 import Frame from '../../../assets/svg/Framer.svg'
 import styled from '../../../assets/svg/styled.svg'
-import { NavBar } from "../../../components/NavBar"
 import { Box } from "../../../components/Box/styled"
+
 
 export default function AboutPage(){
 
   return(
     <Page>
       <Container>
-      <NavBar></NavBar>
         <Box>
           <h1>Informações</h1>
           <p>Olá, estou cursando o 6º semestre de Engenharia de Software na UNB, tenho afinidade com novas tecnologias e vontade de aprender e experimentar novos segmentos da área. Estou apto para trabalhar em ambientes variados e adquirir habilidades e experiências nos desafios atuais do setor.</p>
