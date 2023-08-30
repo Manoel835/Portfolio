@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100vw;
   display: flex;
   justify-content: center;
   h1 {
@@ -18,6 +17,17 @@ export const Container = styled.div`
     font-weight: 400;
     padding: 10px;
   }
+  @media screen and (max-width: 800px){
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+    .LineP,
+    .LineS{
+      display: none;
+    }
+  }
 `
 export const BoxP = styled.div`
   width: 19.5rem;
@@ -29,6 +39,10 @@ export const BoxP = styled.div`
   &:hover{
     transform: translateX(5px) scale(1.02);
   }
+  @media screen and (max-width: 800px) {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
 `
 export const BoxC = styled.div`
   width: 19.5rem;
@@ -51,6 +65,10 @@ export const BoxS = styled.div`
   &:hover{
     transform: translateX(5px) scale(1.02);
   }
+  @media screen and (max-width: 800px) {
+  margin-left: 0;
+  margin-top: 20px;
+}
 `
 export const LineP = styled.div`
   width: 2.5px;

@@ -1,34 +1,42 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 
-export const Page = styled.main`
-  background: linear-gradient(24deg, #05161A 50.62%, #294D61 85.61%);
-`
-
 export const Container = styled(motion.div)`
-  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: column;
 `
 export const Card = styled(motion.div)`
-  width: 80vw;
   border-radius: 30px;
   box-shadow: 1px 1px 50px #424449;
   padding: 1rem;
+  margin: 2rem;
   h1{
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
+  p{
+    font-size: 1.2rem;
+}
+@media screen  and (min-width: 100px) and (max-width: 800px){
+  h1,
+  h2{
+    font-size: 1rem;
+    }
+    p{
+      font-size: 1rem;
+  }
+}
 `
 export const ImgProject = styled.img`
   height: 45vh;
   padding: 1.5rem;
+  @media screen  and (min-width: 100px) and (max-width: 800px){
+    display: none;
+}
 `
 export const ImgDiv = styled.div`
   display: flex;
-  p{
-    font-size:1.5rem;
-  }
 `
 export const Info = styled.div`
 a{

@@ -23,16 +23,17 @@ export default function AboutPage(){
           <p>Meu foco é desenvolvedor de aplicações web e mobile</p>
           <p>Principais tecnologias que utilizo:</p>
           <Icones>
-            <Caixa><a><img src={Typetypescript} alt="typescript" />TypeScript</a></Caixa>
-            <Caixa><a><img src={javascript} alt="typescript"/>JavaScript</a></Caixa>
-            <Caixa><a><img src={React} alt="React"/>React.js</a></Caixa>
-            <Caixa><a><img src={Node} alt="typescript"/>Node.js</a></Caixa>
+            <Caixa><p><img src={Typetypescript} alt="typescript" />TypeScript</p>
+            </Caixa>
+            <Caixa><p><img src={javascript} alt="typescript"/>JavaScript</p></Caixa>
+            <Caixa><p><img src={React} alt="React"/>React.js</p></Caixa>
+            <Caixa><p><img src={Node} alt="typescript"/>Node.js</p></Caixa>
           </Icones>
           <p>Principais bibliotecas que utilizo para estilização:</p>
           <IconesS>
-            <Caixa><a><img src={Frame} alt="Framer Motion"/>Framer Motion </a></Caixa>
+            <Caixa><p><img src={Frame} alt="Framer Motion"/>Framer Motion </p></Caixa>
             <IconesS>
-            <Caixa><a><img src={styled} alt="styled-components" />Styled-components</a></Caixa>
+            <Caixa><p><img src={styled} alt="styled-components" />Styled-components</p></Caixa>
             </IconesS>
           </IconesS>
           <DivButton>

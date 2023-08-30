@@ -7,20 +7,17 @@ import {
   Card,
   Foto,
   DivCard,
-  Button,
   DivButton,
   ButtonCerficado
 } from './styles'
 import Unb from '../../../assets/images/Unb.png'
 import { useNavigate } from 'react-router-dom'
+import { Button } from '../../../components/Button/styles'
 
 export default function Experience() {
   const navigate = useNavigate()
   const ClickPortfólio = () => {
     return navigate('/')
-  }
-  const ClickJava = () => {
-    return navigate("https://cursos.dankicode.com/api/certificados/14daf2bf-0263-436c-9db5-59f9733940c9")
   }
   return (
     <Page>
@@ -35,6 +32,24 @@ export default function Experience() {
               </DivCard>
               <ButtonCerficado>
                 <a href='https://cursos.dankicode.com/api/certificados/14daf2bf-0263-436c-9db5-59f9733940c9' target="_blank" rel="noreferrer"><p>Certificado</p></a>
+              </ButtonCerficado>
+            </Card>
+            <Card>
+              <DivCard>
+              <h1>Curso Front-end Completo</h1>
+              <h2>Carga Horária 10 horas</h2>
+              </DivCard>
+              <ButtonCerficado>
+                <a href='https://cursos.dankicode.com/api/certificados/fd3d3c1c-591e-47c8-a377-84fc3b47074c' target="_blank" rel="noreferrer"><p>Certificado</p></a>
+              </ButtonCerficado>
+            </Card>
+            <Card>
+              <DivCard>
+              <h1>JavaScript Avançado</h1>
+              <h2>Carga Horária 8 horas</h2>
+              </DivCard>
+              <ButtonCerficado>
+                <a href='https://class.devsamurai.com.br/certificates/c3056c7f-e370-4cdc-86fd-8198e86f0cf8' target="_blank" rel="noreferrer"><p>Certificado</p></a>
               </ButtonCerficado>
             </Card>
           </Certificate>

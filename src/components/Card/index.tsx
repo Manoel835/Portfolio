@@ -15,7 +15,7 @@ export default function Card() {
   }
   return (
     <Container>
-      <LineP />
+      <LineP className='LineP'/>
       <BoxP onClick={ClickProjetos}>
         <h1>Projetos</h1>
         <p>Aqui verá os meus queridinhos.</p>
@@ -28,7 +28,7 @@ export default function Card() {
         <h1>Sobre</h1>
         <p>Um pouco sobre mim.</p>
       </BoxS>
-      <LineS />
+      <LineS className='LineS'/>
     </Container>
   )
 }
