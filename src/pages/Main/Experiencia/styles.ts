@@ -1,11 +1,14 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 
-export const Container = styled(motion.div)`
+export const Page =styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(24deg, #05161A 50.62%, #294D61 85.61%);
+  height: 100vh;
 `
+
 export const Certificate = styled(motion.div)`
   text-align: center;
   width: 50vw;

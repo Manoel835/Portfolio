@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-
-export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+export const Page = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(24deg, #05161A 50.62%, #294D61 85.61%);
+  height: 100vh;
+
 `
 
 export const Caixa = styled.div`
@@ -27,6 +27,11 @@ export const Icones= styled.div`
 display: flex;
 text-align:center;
 justify-content:space-evenly;
+
+@media screen and (min-width: 320px) and (max-width: 800px){
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 `
 export const IconesS= styled.div`
 display: flex;
@@ -34,8 +39,14 @@ text-align:center;
 justify-content: center;
 margin-right: 25px;
 margin-left: 55px;
+@media screen and (min-width:320px){
+  margin-right: 0px;
+  margin-left: 0px;
+  justify-content: space-evenly;
+}
 `
 export const Box = styled(motion.div)`
+
 width: 50vw;
 border-radius: 30px;
 box-shadow: 1px 1px 50px #424449;
