@@ -9,19 +9,23 @@ export default function Icones() {
     <Container>
       <Line>
         <span className='line'></span>
-        <a href='https://github.com/Manoel835'>
+        <a href='https://github.com/Manoel835' target='_blank' rel='noreferrer'>
           <img src={Git} alt='github' />
         </a>
       </Line>
       <Line>
-      <span className='line'></span>
-        <a href='https://www.linkedin.com/in/manoel-felipe-84194b231/'>
+        <span className='line'></span>
+        <a
+          href='https://www.linkedin.com/in/manoel-felipe-84194b231/'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img src={Linkedin} alt='Linkedin'></img>
         </a>
       </Line>
       <Line>
-      <span className='line'></span>
-        <a href='https://www.instagram.com/mftneto/'>
+        <span className='line'></span>
+        <a href='https://www.instagram.com/mftneto/' target='_blank' rel='noreferrer'>
           <img src={Instagram} alt='Linkedin'></img>
         </a>
       </Line>

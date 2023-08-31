@@ -33,11 +33,13 @@ export default function Project() {
               </p>
               <h2>
                 Demonstração:{' '}
-                <a href='https://api-git-pied.vercel.app/'>https://api-git-pied.vercel.app/</a>
+                <a href='https://api-git-pied.vercel.app/' target='_blank' rel='noreferrer'>
+                  https://api-git-pied.vercel.app/
+                </a>
               </h2>
               <h2>
                 GitHub:{' '}
-                <a href='https://github.com/Manoel835/Api-Git'>
+                <a href='https://github.com/Manoel835/Api-Git' target='_blank' rel='noreferrer'>
                   https://github.com/Manoel835/Api-Git
                 </a>
               </h2>
@@ -68,13 +70,17 @@ export default function Project() {
               </p>
               <h2>
                 Demonstração:{' '}
-                <a href='https://sonda-engenharia-nr.vercel.app/'>
+                <a href='https://sonda-engenharia-nr.vercel.app/' target='_blank' rel='noreferrer'>
                   https://sonda-engenharia-nr.vercel.app/
                 </a>
               </h2>
               <h2>
                 GitHub:{' '}
-                <a href='https://github.com/mdsreq-fga-unb/2023.1-NRControl'>
+                <a
+                  href='https://github.com/mdsreq-fga-unb/2023.1-NRControl'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   https://github.com/mdsreq-fga-unb/2023.1-NRControl
                 </a>
               </h2>
