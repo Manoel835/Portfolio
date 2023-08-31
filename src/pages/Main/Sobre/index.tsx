@@ -30,7 +30,7 @@ export default function AboutPage() {
           para trabalhar em ambientes variados e adquirir habilidades e experiências nos desafios
           atuais do setor.
         </p>
-        <p>Meu foco é desenvolvedor de aplicações web e mobile</p>
+        <p>Meu foco é desenvolvedor de aplicações web.</p>
         <p>Principais tecnologias que utilizo:</p>
         <Icones>
           <Caixa>
