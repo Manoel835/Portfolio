@@ -4,7 +4,6 @@ import styled from 'styled-components'
 export const Page = styled.main`
   display: flex;
   justify-content: center;
-  height: 100vh;
 
   align-items: center;
   background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);

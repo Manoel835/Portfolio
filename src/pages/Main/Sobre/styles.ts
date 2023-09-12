@@ -5,7 +5,6 @@ export const Page = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);
 `
 
