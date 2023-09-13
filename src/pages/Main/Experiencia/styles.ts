@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
 
-export const Page = styled.main`
+export const Page = styled.div`
   display: flex;
   justify-content: center;
-
   align-items: center;
+  min-height: 100vh;
   background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);
 `
 export const Certificate = styled(motion.div)`
