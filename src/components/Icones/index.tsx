@@ -16,7 +16,7 @@ export default function Icones() {
       <Line>
         <span className='line'></span>
         <a
-          href='https://www.linkedin.com/in/manoel-felipe-84194b231/'
+          href='https://www.linkedin.com/in/manoel-felipe-teixeira-neto-84194b231/'
           target='_blank'
           rel='noreferrer'
         >
