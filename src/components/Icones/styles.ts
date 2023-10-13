@@ -10,7 +10,8 @@ export const Container = styled.div`
   @media screen and (min-width: 320px) and (max-width: 800px) {
     width: 100vw;
     flex-direction: row;
-    margin-right: 60px;
+    align-items: center;
+    justify-content: space-evenly;
   }
 `
 export const Line = styled.div`
