@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Typetypescript from '../../../assets/svg/typescript.svg'
 import React from '../../../assets/svg/react.svg'
 import javascript from '../../../assets/svg/javascript.svg'
+import python from '../../../assets/svg/python.svg'
 import Node from '../../../assets/svg/node.svg'
 import Frame from '../../../assets/svg/Framer.svg'
 import styled from '../../../assets/svg/styled.svg'
@@ -43,6 +44,12 @@ export default function AboutPage() {
             <p>
               <img src={javascript} alt='typescript' />
               JavaScript
+            </p>
+          </Caixa>
+          <Caixa>
+            <p>
+              <img src={python} alt='python' />
+              Python
             </p>
           </Caixa>
           <Caixa>
