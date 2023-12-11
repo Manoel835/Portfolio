@@ -6,7 +6,28 @@ export const Page = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);
+  width: 100%;
+  height: 100%;
+
+  background: #000000;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
+
 `
 export const Certificate = styled(motion.div)`
   text-align: center;
@@ -46,8 +67,8 @@ export const Card = styled.div`
   height: 20vh;
   border-radius: 30px;
   margin: 1rem 2rem;
-  background: ${(props) => props.theme.colors.gray800};
   align-items: center;
+  justify-content: center;
   padding: 0 1rem;
   h1,
   h2 {

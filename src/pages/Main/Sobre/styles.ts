@@ -6,15 +6,33 @@ export const Page = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
+  height: 100%;
 
-  background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);
+  background: #000000;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
 `
 
 export const Caixa = styled.div`
   width: 8vw;
   border-radius: 30px;
   &:hover {
-    background: #294d61;
     transform: translateX(5px) scale(1.02);
   }
   img {
@@ -71,7 +89,7 @@ export const DivButton = styled.div`
 export const Button = styled.button`
   width: 20vw;
   height: 8vh;
-  background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);
+  background: linear-gradient(24deg, #000000 50.62%, #333333 85.61%);
   border-radius: 20px;
   cursor: pointer;
   border: none;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   width: 20vw;
-  background: linear-gradient(24deg, #05161a 50.62%, #294d61 85.61%);
+  background: linear-gradient(24deg, #000000 50.62%, #333333 85.61%);
   border-radius: 20px;
   cursor: pointer;
   border: none;

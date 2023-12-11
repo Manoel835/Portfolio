@@ -12,6 +12,7 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 10rem;
   }
 `
 export const Line = styled.div`

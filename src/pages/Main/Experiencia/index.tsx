@@ -3,13 +3,11 @@ import {
   Experiencia,
   Box,
   Card,
-  Foto,
   DivCard,
   DivButton,
   ButtonCerficado,
   Page,
 } from './styles'
-import Unb from '../../../assets/images/Unb.png'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '../../../components/Button/styles'
 
@@ -84,7 +82,12 @@ export default function Experience() {
               <h1>Universidade de Brasilia</h1>
               <h2>(Julho de 2021 - Atual)</h2>
             </DivCard>
-            <Foto src={Unb}></Foto>
+          </Card>
+          <Card>
+            <DivCard>
+              <h1>Cria Incubator</h1>
+              <h2>(Outubro de 2023 - Atual)</h2>
+            </DivCard>
           </Card>
           <DivButton>
             <Button onClick={ClickPortfólio}>
