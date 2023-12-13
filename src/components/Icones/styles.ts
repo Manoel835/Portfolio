@@ -11,8 +11,7 @@ export const Container = styled.div`
     width: 100vw;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10rem;
+    margin-top: 11rem;
   }
 `
 export const Line = styled.div`

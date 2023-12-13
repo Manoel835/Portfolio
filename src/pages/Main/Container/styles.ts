@@ -51,7 +51,6 @@ export const Container = styled(motion.div)`
   @media screen and (min-width: 320px) and (max-width: 800px) {
     flex-direction: column;
     width: 100vw;
-    height: 54vh;
   }
 `
 export const Box = styled.div`
