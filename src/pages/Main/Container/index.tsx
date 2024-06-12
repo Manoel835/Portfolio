@@ -8,12 +8,15 @@ export function BoxMain() {
       <Card />
       <Container>
         <Box>
-          <h1>Olá, Meu nome é Manoel Felipe !</h1>
-          <h1>Desenvolvedor full-stack</h1>
+          <h1>Olá, meu nome é Manoel Felipe!</h1>
+          <h2>Desenvolvedor Back-End</h2>
           <p>
-            Como desenvolvedor full-stack, minha afinidade se estende desde a criação de interfaces elegantes e responsivas no front-end até o desenvolvimento de soluções robustas para o back-end. Minha jornada profissional é marcada por um compromisso contínuo com a aprendizagem e a excelência técnica, o que é evidenciado nos projetos que tenho o prazer de apresentar neste portfólio.
+            Sou um desenvolvedor Back-End. Minha carreira é caracterizada por um comprometimento constante com a aprendizagem contínua e a busca pela excelência técnica.
           </p>
-        </Box>
+          <p>
+            Tenho experiência com Docker, AWS, Node.js, Django e Google Cloud, ferramentas essas que me permitem criar e gerenciar aplicações escaláveis e de alta disponibilidade. Este portfólio é um reflexo do meu percurso profissional e do impacto positivo que minhas habilidades podem trazer para os projetos em que me envolvo.
+          </p>
+          </Box>
         <Icones />
       </Container>
 
